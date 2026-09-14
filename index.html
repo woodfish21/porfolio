@@ -69,4 +69,89 @@
     </footer>
 
 </body>
-</html>\
+</html>\<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的作品集</title>
+    <style>
+        body {
+            font-family: Arial, "Microsoft JhengHei", sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f6f9;
+            color: #333;
+        }
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+        }
+        header {
+            text-align: center;
+            padding: 20px 0;
+        }
+        .cards {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 24px;
+            margin-top: 20px;
+        }
+        .card {
+            background: #ffffff;
+            border: 1px solid #e0e0e0;
+            border-radius: 12px;
+            padding: 20px;
+            flex: 1 1 280px;
+            box-sizing: border-box;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+        }
+        .card h3 {
+            margin-top: 0;
+            color: #2c3e50;
+        }
+        .card a.btn {
+            display: inline-block;
+            margin-top: 12px;
+            padding: 8px 16px;
+            background-color: #3498db;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 6px;
+        }
+        .card a.btn:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>學習作品集</h1>
+            <p>歡迎來到我的個人作品集展示頁面</p>
+        </header>
+
+        <main class="cards">
+            <!-- 新增的數位科技概論作業卡片 -->
+            <div class="card">
+                <h3>數位科技概論作業</h3>
+                <p>包含 HTML 語法練習（文字層級、多媒體、清單與表格、表單元件）與 CSS 樣式、RWD 響應式排版及無障礙設計。</p>
+                <a href="digital-tech.html" class="btn">查看作業內容</a>
+            </div>
+
+            <!-- 您原有的其他作品卡片可以放這裡 -->
+            <div class="card">
+                <h3>其他專案 / 作品</h3>
+                <p>個人創作與社團活動紀錄。</p>
+                <a href="#" class="btn">了解更多</a>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
