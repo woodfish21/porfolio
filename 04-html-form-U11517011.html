@@ -1,108 +1,134 @@
 <!DOCTYPE html>
-<html lang="zh-Hant">
+<html lang="zh-TW">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>放學後社團體驗表</title>
-  <style>
-    body {
-      font-family: Arial, "Microsoft JhengHei", sans-serif;
-      line-height: 1.6;
-      padding: 20px;
-      max-width: 700px;
-      margin: 0 auto;
-    }
-    .back-link {
-      display: inline-block;
-      margin-bottom: 15px;
-      color: #3498db;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    .back-link:hover {
-      text-decoration: underline;
-    }
-    fieldset {
-      margin-bottom: 15px;
-      border: 1px solid #ccc;
-      padding: 10px 15px;
-      border-radius: 6px;
-    }
-    legend {
-      font-weight: bold;
-      padding: 0 5px;
-    }
-    .explanation {
-      font-size: 0.9em;
-      color: #666;
-      margin-top: 4px;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>放學後社團體驗表</title>
+    <style>
+        body {
+            font-family: Arial, "Microsoft JhengHei", sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f6f9;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+            margin-top: 10px;
+        }
+        fieldset {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 15px 20px;
+            margin-top: 20px;
+        }
+        legend {
+            font-weight: bold;
+            color: #2c3e50;
+            padding: 0 8px;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+        input[type="text"], select {
+            width: 100%;
+            padding: 8px 12px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            box-sizing: border-box;
+        }
+        .checkbox-group label, .radio-group label {
+            display: inline-block;
+            font-weight: normal;
+            margin-right: 15px;
+        }
+        .note {
+            background-color: #fffbe6;
+            border-left: 4px solid #ffe58f;
+            padding: 10px 15px;
+            margin-top: 20px;
+            font-size: 14px;
+        }
+        .back-link {
+            display: inline-block;
+            margin-bottom: 15px;
+            color: #3498db;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
+    <div class="container">
+        <a href="digital-tech.html" class="back-link">← 返回數位科技概論作業</a>
+        
+        <h1>放學後社團體驗表</h1>
+        <p>這是介面練習，資料不會送出或保存，不能當成正式報名。</p>
 
-  <!-- 返回數位科技概論作業頁面的連結 -->
-  <a href="digital-tech.html" class="back-link">← 返回數位科技概論作業</a>
+        <form>
+            <div class="form-group">
+                <label for="nickname">我的暱稱</label>
+                <input type="text" id="nickname" placeholder="例如：小星星">
+            </div>
 
-  <h1>放學後社團體驗表</h1>
-  <p>這是介面練習，資料不會送出或保存，不能當成正式報名。</p>
+            <div class="form-group">
+                <label for="club">想體驗的社團</label>
+                <select id="club">
+                    <option value="">請選擇社團</option>
+                    <option value="bridge">紙橋挑戰社</option>
+                    <option value="nature">校園自然觀察社</option>
+                </select>
+            </div>
 
-  <!-- 1. 暱稱 (單行文字) -->
-  <p>
-    <label for="nickname">我的暱稱</label><br>
-    <input id="nickname" name="nickname" type="text" placeholder="例如：小星星">
-  </p>
+            <fieldset>
+                <legend>方便參加的日子</legend>
+                <div class="radio-group">
+                    <label><input type="radio" name="day" value="tue"> 星期二</label><br>
+                    <label><input type="radio" name="day" value="thu"> 星期四</label><br>
+                    <label><input type="radio" name="day" value="fri"> 星期五</label>
+                </div>
+            </fieldset>
 
-  <!-- 2. 想體驗的社團 (下拉選單) -->
-  <p>
-    <label for="club">想體驗的社團</label><br>
-    <select id="club" name="club">
-      <option value="">請選擇社團</option>
-      <option value="story">故事劇場</option>
-      <option value="science">科學手作</option>
-      <option value="boardgame">桌遊挑戰</option>
-    </select>
-  </p>
+            <fieldset>
+                <legend>我期待的活動方式</legend>
+                <div class="checkbox-group">
+                    <label><input type="checkbox" value="diy"> 動手製作</label><br>
+                    <label><input type="checkbox" value="team"> 和同學合作</label><br>
+                    <label><input type="checkbox" value="share"> 上台分享</label>
+                </div>
+            </fieldset>
 
-  <!-- 3. 方便參加的日子 (單選按鈕) -->
-  <fieldset>
-    <legend>方便參加的日子</legend>
-    <p><label><input type="radio" name="day" value="tuesday"> 星期二</label></p>
-    <p><label><input type="radio" name="day" value="thursday"> 星期四</label></p>
-    <p><label><input type="radio" name="day" value="friday"> 星期五</label></p>
-  </fieldset>
+            <div class="form-group" style="margin-top: 20px;">
+                <label for="diet">特殊飲食需求（自訂新增欄位）</label>
+                <select id="diet">
+                    <option value="none">無特殊需求</option>
+                    <option value="veg">素食</option>
+                </select>
+            </div>
 
-  <!-- 4. 我期待的活動方式 (複選方塊) -->
-  <fieldset>
-    <legend>我期待的活動方式</legend>
-    <p><label><input type="checkbox" name="activity_style" value="hands_on"> 動手製作</label></p>
-    <p><label><input type="checkbox" name="activity_style" value="cooperation"> 和同學合作</label></p>
-    <p><label><input type="checkbox" name="activity_style" value="presentation"> 上台分享</label></p>
-  </fieldset>
-
-  <!-- 5. 自訂新增欄位 (需求 7) -->
-  <p>
-    <label for="diet">特殊飲食需求（自訂新增欄位）</label><br>
-    <select id="diet" name="diet">
-      <option value="none">無特殊需求</option>
-      <option value="vegetarian">素食</option>
-      <option value="allergy">食物過敏（請於下方備註說明）</option>
-    </select>
-  </p>
-  <p class="explanation">
-    💡 設計說明：新增「特殊飲食需求」下拉選單，以便社團點心時間能提前準備適合學生的餐點。
-  </p>
-
-  <!-- 6. 想告訴老師的事 (五行高 textarea) -->
-  <p>
-    <label for="message">想告訴老師的事</label><br>
-    <textarea id="message" name="message" rows="5" cols="35" placeholder="例如：我想和同學一起完成一個小作品"></textarea>
-  </p>
-
-  <!-- 7. 停用按鈕 (需求 9) -->
-  <button type="button" disabled>練習版，尚未開放報名</button>
-
-  <p>這個按鈕刻意停用。HTML 可以提供輸入與選擇介面，但這份練習沒有接上處理或儲存資料的功能。</p>
-
+            <div class="note">
+                💡 設計說明：新增「特殊飲食需求」下拉選單，以便社團點心時間能提前準備適合學生的餐點。
+            </div>
+        </form>
+    </div>
 </body>
 </html>
