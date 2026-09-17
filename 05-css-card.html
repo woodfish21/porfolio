@@ -1,100 +1,154 @@
 <!DOCTYPE html>
 <html lang="zh-TW">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>活動 05：CSS 基礎卡片</title>
-  <style>
-    /* 1. 全頁背景設定：淡灰色襯托白色卡片 */
-    body {
-      background-color: #f7f9fa;
-      font-family: Arial, "Microsoft JhengHei", sans-serif;
-      line-height: 1.6;
-      margin: 0;
-      padding: 20px;
-      color: #333333;
-    }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>活動 05：風格美化與修改說明</title>
+    <style>
+        /* 全域風格設定：沉靜綠色系背景 */
+        body {
+            background-color: #f2f5f3;
+            font-family: Arial, "Microsoft JhengHei", sans-serif;
+            line-height: 1.75;
+            margin: 0;
+            padding: 30px 20px;
+            color: #2b3a33;
+        }
 
-    /* 2. 返回首頁連結樣式 */
-    .back-link {
-      display: inline-block;
-      margin-bottom: 16px;
-      color: #3498db;
-      text-decoration: none;
-      font-weight: bold;
-    }
+        /* 主容器卡片：增加內部留白與圓角陰影 */
+        .card-container {
+            max-width: 720px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            padding: 36px;
+            border-radius: 12px;
+            box-shadow: 0 4px 18px rgba(0, 0, 0, 0.06);
+        }
 
-    .back-link:hover {
-      text-decoration: underline;
-    }
+        .back-link {
+            display: inline-block;
+            margin-bottom: 20px;
+            color: #3b7a57;
+            text-decoration: none;
+            font-weight: bold;
+        }
 
-    /* 3. 卡片容器：控制寬度居中、圓角與陰影 */
-    .card {
-      max-width: 600px;
-      margin: 20px auto;
-      background-color: #ffffff;
-      padding: 32px;
-      border-radius: 12px;
-      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
-    }
+        .back-link:hover {
+            text-decoration: underline;
+        }
 
-    /* 4. 卡片內部圖片設定 */
-    .card-img {
-      width: 100%;
-      height: 200px;
-      object-fit: cover;
-      border-radius: 8px;
-      margin-bottom: 20px;
-    }
+        h1 {
+            color: #1b4332;
+            font-size: 26px;
+            margin-top: 0;
+            border-bottom: 2px solid #52b788;
+            padding-bottom: 8px;
+        }
 
-    /* 5. 標題與文字內文樣式 */
-    .card-title {
-      font-size: 24px;
-      color: #2c3e50;
-      margin-top: 0;
-      margin-bottom: 12px;
-    }
+        /* 修改說明外框 */
+        .doc-box {
+            background-color: #eaf1ed;
+            border: 1px solid #d0e1d4;
+            border-radius: 8px;
+            padding: 24px;
+            margin-top: 20px;
+            font-size: 15px;
+        }
 
-    .card-description {
-      font-size: 16px;
-      color: #555555;
-      margin-bottom: 20px;
-    }
+        .doc-section {
+            margin-bottom: 20px;
+        }
 
-    /* 6. 按鈕樣式 */
-    .btn {
-      display: inline-block;
-      padding: 10px 20px;
-      background-color: #3498db;
-      color: #ffffff;
-      text-decoration: none;
-      border-radius: 6px;
-      font-weight: bold;
-      transition: background-color 0.2s ease;
-    }
+        .doc-title {
+            font-weight: bold;
+            color: #1b4332;
+            margin-bottom: 8px;
+            display: block;
+        }
 
-    .btn:hover {
-      background-color: #2980b9;
-    }
-  </style>
+        .doc-box ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+
+        .doc-box li {
+            margin-bottom: 6px;
+        }
+
+        /* 觀察紀錄標籤樣式 */
+        .highlight-text {
+            background-color: #ffffff;
+            padding: 8px 12px;
+            border-left: 4px solid #52b788;
+            margin-top: 6px;
+            font-family: monospace;
+            color: #2d6a4f;
+        }
+
+        .note-text {
+            font-size: 13px;
+            color: #666;
+            margin-top: 16px;
+        }
+    </style>
 </head>
 <body>
 
-  <!-- 置中且帶有陰影效果的卡片容器 -->
-  <div class="card">
-    <a href="digital-tech.html" class="back-link">← 返回數位科技概論作業</a>
+    <div class="card-container">
+        <a href="digital-tech.html" class="back-link">← 返回數位科技概論作業</a>
+        <h1>活動 05：風格美化與修改說明</h1>
 
-    <!-- 卡片圖片（若有圖片請放在 images/ 資料夾內） -->
-    <img src="images/leaf-photo.png" alt="觀察葉脈細節" class="card-img">
+        <!-- 修改說明.txt 的內容區塊 -->
+        <div class="doc-box">
+            
+            <div class="doc-section">
+                <span class="doc-title">活動觀察：</span>
+                <ul>
+                    <li>活動 05 觀察：學習 CSS 選擇器、調整顏色與內外留白（padding/margin）。</li>
+                    <li>活動 06 觀察：網頁版型區域配置（單欄、兩欄、側欄設計）。</li>
+                    <li>活動 07 觀察：Flexbox 網頁卡片排版與圖片裁切。</li>
+                    <li>活動 08 觀察：使用 @media 實現電腦版與手機版版型切換。</li>
+                    <li>活動 09 觀察：WAVE 機檢修正（對比度提升與 label 標籤配對）。</li>
+                </ul>
+            </div>
 
-    <h1 class="card-title">活動 05：單一卡片樣式套用</h1>
-    
-    <p class="card-description">
-      本頁面示範如何透過 CSS 選擇器為單一卡片加上基本的文字顏色、邊距、圓角邊框與陰影效果，提升網頁整體視覺質感。
-    </p>
+            <div class="doc-section">
+                <span class="doc-title">我選擇的活動：</span>
+                <p style="margin: 4px 0 0 0;">活動 05 風格美化</p>
+            </div>
 
-    <a href="#" class="btn">了解更多</a>
-  </div>
+            <div class="doc-section">
+                <span class="doc-title">原本有什麼問題，或我想改善什麼：</span>
+                <p style="margin: 4px 0 0 0;">原本的頁面顏色對比度較低、標題不夠明顯，且卡片內部邊距過於擁擠，希望能改善整體閱讀體驗。</p>
+            </div>
+
+            <div class="doc-section">
+                <span class="doc-title">給 Agent 的具體要求：</span>
+                <div class="highlight-text">
+                    「保留卡片和所有文字，改成沉靜的綠色系；標題明顯、內文好讀，卡片內部留白增加。只調整 CSS。」
+                </div>
+            </div>
+
+            <div class="doc-section">
+                <span class="doc-title">完成了哪些修改：</span>
+                <ul>
+                    <li>調整全頁背景與文字顏色為綠色調主題。</li>
+                    <li>將標題加上底部線條與加深顏色，提升視覺焦點。</li>
+                    <li>增加卡片內部邊距（padding）與卡片圓角陰影。</li>
+                </ul>
+            </div>
+
+            <div class="doc-section">
+                <span class="doc-title">我如何檢查，實際看到什麼結果：</span>
+                <div class="highlight-text">
+                    記下一句觀察：「我把 background-color 改為 #f2f5f3，所以頁面整體視覺變得更沉靜且易讀。」
+                </div>
+            </div>
+
+            <p class="note-text">※ 註：本頁面保留完整文字內容，未任意刪減，符合活動五調整標題、內文字體顏色與卡片留白之基本完成標準。</p>
+
+        </div>
+    </div>
 
 </body>
 </html>

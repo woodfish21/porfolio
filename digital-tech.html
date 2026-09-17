@@ -6,60 +6,78 @@
     <title>數位科技概論作業 - 細部頁面</title>
     <style>
         body {
-            font-family: Arial, "Microsoft JhengHei", sans-serif;
+            font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, "Microsoft JhengHei", sans-serif;
             line-height: 1.6;
             margin: 0;
             padding: 20px;
-            background-color: #f9f9f9;
-            color: #333;
+            background-color: #ffffff;
+            color: #333333;
         }
         .container {
-            max-width: 800px;
+            max-width: 850px;
             margin: 0 auto;
-            background: #fff;
-            padding: 30px;
-            border-radius: 12px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            padding: 20px;
         }
         h1 {
-            color: #2c3e50;
-            border-bottom: 2px solid #3498db;
-            padding-bottom: 10px;
+            color: #1a252f;
+            font-size: 28px;
+            font-weight: 700;
+            border-bottom: 2px solid #4a90e2;
+            padding-bottom: 12px;
+            margin-bottom: 20px;
+        }
+        p {
+            color: #555555;
+            font-size: 15px;
+            margin-bottom: 25px;
         }
         h2 {
-            color: #34495e;
-            margin-top: 24px;
+            color: #2c3e50;
+            font-size: 22px;
+            font-weight: 700;
+            margin-top: 30px;
+            margin-bottom: 15px;
         }
         ul {
             list-style: none;
             padding-left: 0;
+            margin: 0;
         }
         li {
-            margin-bottom: 12px;
+            margin-bottom: 16px;
         }
         /* 卡片與連結樣式 */
         .task-link {
-            display: block;
-            padding: 14px 18px;
-            background-color: #f8fafc;
-            border-left: 5px solid #3498db;
+            display: flex;
+            align-items: center;
+            padding: 16px 20px;
+            background-color: #f7f9fc;
+            border-left: 5px solid #4a90e2;
             border-radius: 8px;
-            color: #333;
             text-decoration: none;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            color: #333333;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
             transition: all 0.2s ease;
         }
         .task-link:hover {
-            background-color: #f0f7fc;
-            transform: translateY(-2px);
-            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            background-color: #edf4fc;
+            transform: translateY(-1px);
+        }
+        .task-title {
+            font-weight: 700;
+            margin-right: 8px;
+            color: #2c3e50;
+        }
+        .task-desc {
+            font-weight: 600; /* 已加粗至與返回鍵相同的粗細 */
+            color: #4a90e2;
         }
         .back-link {
             display: inline-block;
             margin-bottom: 20px;
-            color: #3498db;
+            color: #4a90e2;
             text-decoration: none;
-            font-weight: bold;
+            font-weight: 600;
         }
         .back-link:hover {
             text-decoration: underline;
@@ -77,52 +95,37 @@
         <ul>
             <li>
                 <a href="01-html-text-U11517011.html" class="task-link">
-                    <strong>活動 01 文字層級：</strong>水與生活（練習標題層級、段落與上下標標籤）。
+                    <span class="task-title">活動 01 文字層級：</span>
+                    <span class="task-desc">水與生活：小小科學探索日</span>
                 </a>
             </li>
             <li>
                 <a href="02-html-media-U11517011.html" class="task-link">
-                    <strong>活動 02 多媒體：</strong>校園自然觀察任務卡（練習圖片 img、聲音 audio 與影片 video）。
+                    <span class="task-title">活動 02 多媒體：</span>
+                    <span class="task-desc">校園自然觀察任務卡</span>
                 </a>
             </li>
             <li>
                 <a href="03-html-plan-U11517011.html" class="task-link">
-                    <strong>活動 03 清單與表格：</strong>社團活動準備頁（練習 ul、ol 清單與 table 表格欄位）。
+                    <span class="task-title">活動 03 清單與表格：</span>
+                    <span class="task-desc">紙橋挑戰社：活動準備頁</span>
                 </a>
             </li>
             <li>
                 <a href="04-html-form-U11517011.html" class="task-link">
-                    <strong>活動 04 表單元件：</strong>社團體驗表（練習文字輸入框、單選/複選按鈕與下拉選單）。
+                    <span class="task-title">活動 04 表單元件：</span>
+                    <span class="task-desc">放學後社團體驗表</span>
                 </a>
             </li>
         </ul>
 
-        <h2>CSS 活動練習 (05-09)</h2>
+        <h2>CSS 活動練習 (05)</h2>
         <ul>
             <li>
                 <a href="05-css-card.html" class="task-link">
-                    <strong>活動 05 風格美化：</strong>色彩實驗室與視覺風格調整。
+                    <span class="task-title">活動 05 風格美化：</span>
+                    <span class="task-desc">色彩實驗室與視覺風格調整</span>
                 </a>
-            </li>
-            <li>
-                <div class="task-link" style="opacity: 0.6; cursor: not-allowed;">
-                    <strong>活動 06 排版佈局：</strong>網頁版型區域配置（單欄、兩欄、側欄設計）。
-                </div>
-            </li>
-            <li>
-                <div class="task-link" style="opacity: 0.6; cursor: not-allowed;">
-                    <strong>活動 07 卡片排列：</strong>Flexbox 網頁卡片排版與圖片裁切。
-                </div>
-            </li>
-            <li>
-                <div class="task-link" style="opacity: 0.6; cursor: not-allowed;">
-                    <strong>活動 08 RWD 響應式：</strong>使用 @media 實現電腦版與手機版版型切換。
-                </div>
-            </li>
-            <li>
-                <div class="task-link" style="opacity: 0.6; cursor: not-allowed;">
-                    <strong>活動 09 無障礙設計：</strong>WAVE 機檢修正（對比度提升與 label 標籤配對）。
-                </div>
             </li>
         </ul>
     </div>
