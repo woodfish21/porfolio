@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900" role="img" aria-labelledby="title desc">
+<title id="title">船長的一週行事曆</title><desc id="desc">2026 年 9 月 14 日至 20 日，虛構航海行程。週一啟航，週三救生演練，週五補給，週日返航。</desc>
+<rect width="1400" height="900" rx="26" fill="#f5f1e8"/>
+<path d="M0 210 Q350 185 700 210 T1400 210 V0 H0Z" fill="#173d49"/>
+<g font-family="Microsoft JhengHei, Noto Sans TC, sans-serif">
+<text x="64" y="66" font-size="15" letter-spacing="4" fill="#d4bc83">THE CAPTAIN’S LOG / WEEK 38</text>
+<text x="60" y="135" font-size="46" font-weight="700" fill="#fffaf0">船長的一週行事曆</text>
+<text x="64" y="176" font-size="19" fill="#c6d5d5">2026.09.14 — 09.20　｜　星辰號・秋日航程</text>
+<circle cx="1280" cy="105" r="57" fill="none" stroke="#d4bc83" stroke-width="2"/>
+<path d="M1280 57 L1292 105 L1280 153 L1268 105Z" fill="#d4bc83"/><path d="M1232 105H1328" stroke="#d4bc83"/><text x="1274" y="38" fill="#d4bc83" font-size="14">N</text>
+<rect x="60" y="250" width="174" height="422" rx="14" fill="white"/>
+<text x="76" y="286" font-size="13" letter-spacing="2" fill="#718588">MON</text>
+<text x="76" y="325" font-size="26" font-weight="700" fill="#173d49">週一</text>
+<text x="172" y="323" font-size="15" fill="#718588">09/14</text>
+<path d="M76 348H218" stroke="#e5e9e5"/>
+<rect x="72" y="372" width="150" height="143" rx="9" fill="#eaf0ed"/>
+<text x="84" y="404" font-size="19" fill="#42685f">08:30</text>
+<text x="84" y="441" font-size="21" font-weight="700" fill="#173d49">航前簡報</text>
+<text x="84" y="477" font-size="14" fill="#57716c">確認航線與天氣</text>
+<text x="84" y="565" font-size="19" fill="#9b774b">10:00</text>
+<text x="84" y="601" font-size="21" fill="#173d49">離港啟航</text>
+<rect x="244" y="250" width="174" height="422" rx="14" fill="white"/>
+<text x="260" y="286" font-size="13" letter-spacing="2" fill="#718588">TUE</text>
+<text x="260" y="325" font-size="26" font-weight="700" fill="#173d49">週二</text>
+<text x="356" y="323" font-size="15" fill="#718588">09/15</text>
+<path d="M260 348H402" stroke="#e5e9e5"/>
+<rect x="256" y="372" width="150" height="143" rx="9" fill="#eaf0ed"/>
+<text x="268" y="404" font-size="19" fill="#42685f">09:00</text>
+<text x="268" y="441" font-size="21" font-weight="700" fill="#173d49">甲板巡檢</text>
+<text x="268" y="477" font-size="14" fill="#57716c">檢查設備與安全</text>
+<text x="268" y="565" font-size="19" fill="#9b774b">15:00</text>
+<text x="268" y="601" font-size="21" fill="#173d49">航海日誌</text>
+<rect x="428" y="250" width="174" height="422" rx="14" fill="white"/>
+<text x="444" y="286" font-size="13" letter-spacing="2" fill="#718588">WED</text>
+<text x="444" y="325" font-size="26" font-weight="700" fill="#173d49">週三</text>
+<text x="540" y="323" font-size="15" fill="#718588">09/16</text>
+<path d="M444 348H586" stroke="#e5e9e5"/>
+<rect x="440" y="372" width="150" height="143" rx="9" fill="#eaf0ed"/>
+<text x="452" y="404" font-size="19" fill="#42685f">07:30</text>
+<text x="452" y="441" font-size="21" font-weight="700" fill="#173d49">海象觀測</text>
+<text x="452" y="477" font-size="14" fill="#57716c">記錄風向與浪況</text>
+<text x="452" y="565" font-size="19" fill="#9b774b">14:00</text>
+<text x="452" y="601" font-size="21" fill="#173d49">救生演練</text>
+<rect x="612" y="250" width="174" height="422" rx="14" fill="white"/>
+<text x="628" y="286" font-size="13" letter-spacing="2" fill="#718588">THU</text>
+<text x="628" y="325" font-size="26" font-weight="700" fill="#173d49">週四</text>
+<text x="724" y="323" font-size="15" fill="#718588">09/17</text>
+<path d="M628 348H770" stroke="#e5e9e5"/>
+<rect x="624" y="372" width="150" height="143" rx="9" fill="#eaf0ed"/>
+<text x="636" y="404" font-size="19" fill="#42685f">10:00</text>
+<text x="636" y="441" font-size="21" font-weight="700" fill="#173d49">燈塔定位</text>
+<text x="636" y="477" font-size="14" fill="#57716c">核對方位與航程</text>
+<text x="636" y="565" font-size="19" fill="#9b774b">16:00</text>
+<text x="636" y="601" font-size="21" fill="#173d49">船員會議</text>
+<rect x="796" y="250" width="174" height="422" rx="14" fill="white"/>
+<text x="812" y="286" font-size="13" letter-spacing="2" fill="#718588">FRI</text>
+<text x="812" y="325" font-size="26" font-weight="700" fill="#173d49">週五</text>
+<text x="908" y="323" font-size="15" fill="#718588">09/18</text>
+<path d="M812 348H954" stroke="#e5e9e5"/>
+<rect x="808" y="372" width="150" height="143" rx="9" fill="#eaf0ed"/>
+<text x="820" y="404" font-size="19" fill="#42685f">09:30</text>
+<text x="820" y="441" font-size="21" font-weight="700" fill="#173d49">靠港補給</text>
+<text x="820" y="477" font-size="14" fill="#57716c">補充淡水與物資</text>
+<text x="820" y="565" font-size="19" fill="#9b774b">13:00</text>
+<text x="820" y="601" font-size="21" fill="#173d49">設備保養</text>
+<rect x="980" y="250" width="174" height="422" rx="14" fill="white"/>
+<text x="996" y="286" font-size="13" letter-spacing="2" fill="#718588">SAT</text>
+<text x="996" y="325" font-size="26" font-weight="700" fill="#173d49">週六</text>
+<text x="1092" y="323" font-size="15" fill="#718588">09/19</text>
+<path d="M996 348H1138" stroke="#e5e9e5"/>
+<rect x="992" y="372" width="150" height="143" rx="9" fill="#eaf0ed"/>
+<text x="1004" y="404" font-size="19" fill="#42685f">08:00</text>
+<text x="1004" y="441" font-size="21" font-weight="700" fill="#173d49">海岸探索</text>
+<text x="1004" y="477" font-size="14" fill="#57716c">觀察沿岸生態</text>
+<text x="1004" y="565" font-size="19" fill="#9b774b">17:00</text>
+<text x="1004" y="601" font-size="21" fill="#173d49">夕照攝影</text>
+<rect x="1164" y="250" width="174" height="422" rx="14" fill="white"/>
+<text x="1180" y="286" font-size="13" letter-spacing="2" fill="#718588">SUN</text>
+<text x="1180" y="325" font-size="26" font-weight="700" fill="#173d49">週日</text>
+<text x="1276" y="323" font-size="15" fill="#718588">09/20</text>
+<path d="M1180 348H1322" stroke="#e5e9e5"/>
+<rect x="1176" y="372" width="150" height="143" rx="9" fill="#eaf0ed"/>
+<text x="1188" y="404" font-size="19" fill="#42685f">10:00</text>
+<text x="1188" y="441" font-size="21" font-weight="700" fill="#173d49">返航入港</text>
+<text x="1188" y="477" font-size="14" fill="#57716c">整理本週航行紀錄</text>
+<text x="1188" y="565" font-size="19" fill="#9b774b">15:30</text>
+<text x="1188" y="601" font-size="21" fill="#173d49">下週規劃</text>
+<rect x="60" y="709" width="1280" height="104" rx="14" fill="#e6ddd0"/>
+<text x="84" y="746" font-size="16" font-weight="700" fill="#795e3c">本週重要時間點</text>
+<text x="84" y="785" font-size="21" fill="#173d49">週一 10:00 啟航　→　週三 14:00 救生演練　→　週五 09:30 補給　→　週日 10:00 返航</text>
+<text x="64" y="860" font-size="15" fill="#718588">教學用虛構行程　｜　SVG 向量圖：以文字、線條與色塊構成</text>
+</g></svg>
