@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>活動 05：CSS 基礎卡片</title>
+  <style>
+    /* 1. 全頁背景設定：淡灰色襯托白色卡片 */
+    body {
+      background-color: #f7f9fa;
+      font-family: Arial, "Microsoft JhengHei", sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 20px;
+      color: #333333;
+    }
+
+    /* 2. 返回首頁連結樣式 */
+    .back-link {
+      display: inline-block;
+      margin-bottom: 16px;
+      color: #3498db;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .back-link:hover {
+      text-decoration: underline;
+    }
+
+    /* 3. 卡片容器：控制寬度居中、圓角與陰影 */
+    .card {
+      max-width: 600px;
+      margin: 20px auto;
+      background-color: #ffffff;
+      padding: 32px;
+      border-radius: 12px;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+    }
+
+    /* 4. 卡片內部圖片設定 */
+    .card-img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 8px;
+      margin-bottom: 20px;
+    }
+
+    /* 5. 標題與文字內文樣式 */
+    .card-title {
+      font-size: 24px;
+      color: #2c3e50;
+      margin-top: 0;
+      margin-bottom: 12px;
+    }
+
+    .card-description {
+      font-size: 16px;
+      color: #555555;
+      margin-bottom: 20px;
+    }
+
+    /* 6. 按鈕樣式 */
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #3498db;
+      color: #ffffff;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+      transition: background-color 0.2s ease;
+    }
+
+    .btn:hover {
+      background-color: #2980b9;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 置中且帶有陰影效果的卡片容器 -->
+  <div class="card">
+    <a href="digital-tech.html" class="back-link">← 返回數位科技概論作業</a>
+
+    <!-- 卡片圖片（若有圖片請放在 images/ 資料夾內） -->
+    <img src="images/leaf-photo.png" alt="觀察葉脈細節" class="card-img">
+
+    <h1 class="card-title">活動 05：單一卡片樣式套用</h1>
+    
+    <p class="card-description">
+      本頁面示範如何透過 CSS 選擇器為單一卡片加上基本的文字顏色、邊距、圓角邊框與陰影效果，提升網頁整體視覺質感。
+    </p>
+
+    <a href="#" class="btn">了解更多</a>
+  </div>
+
+</body>
+</html>
