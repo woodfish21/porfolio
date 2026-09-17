@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>校園自然觀察任務卡</title>
+  <style>
+    body {
+      font-family: Arial, "Microsoft JhengHei", sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 20px;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: #fff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+    h1 {
+      color: #2c3e50;
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+    h2 {
+      color: #34495e;
+      font-size: 20px;
+      margin-top: 24px;
+    }
+    p {
+      font-size: 16px;
+      color: #444;
+    }
+    .back-link {
+      display: inline-block;
+      margin-bottom: 20px;
+      color: #3498db;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .back-link:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <a href="digital-tech.html" class="back-link">← 返回數位科技概論作業</a>
+
+    <h1>校園自然觀察任務卡</h1>
+    <p>今天我們用眼睛觀察，也用文字記錄發現。</p>
+
+    <h2>任務一：看看葉脈</h2>
+    <p>觀察葉片圖片，找出葉脈延伸的方向。</p>
+    <img src="media-02/leaf-photo.png" alt="清晨陽光透過綠色葉片，清楚呈現網狀葉脈的細節" width="240">
+
+    <h2>任務二：準備開始</h2>
+    <p>按下播放，聽到三個由低到高的短音後，開始你的觀察。</p>
+    <audio src="media-02/notice.wav" controls></audio>
+    <p>聲音說明：三個由低到高的短音，提醒我們開始觀察。這是合成提示音，不是自然環境錄音。</p>
+
+    <h2>任務三：觀察花朵</h2>
+    <p>播放短片，看看花朵怎麼移動，再用一句話描述。</p>
+    <video src="media-02/flower.mp4" controls width="300"></video>
+    <p>影片內容說明：花朵隨風輕輕擺動的短片。請觀察花朵的移動方向與節奏。</p>
+
+    <h2>換一張透明背景 PNG</h2>
+    <p>把下方圖片來源換成 media-02/flower-transparent.png，比較背景是否透出來。</p>
+    <div style="background-color: #dcebea; padding: 16px;">
+      <img src="media-02/flower-transparent.png" alt="透明背景的粉紅色花朵去背圖" width="240">
+    </div>
+    <p>這裡預先提供淡色底板，只用來觀察透明效果；CSS 下一節再學。</p>
+
+    <h2>船長的一週行事曆</h2>
+    <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1000 625'><rect width='1000' height='625' fill='%23f6f3eb'/><path d='M0 0h1000v140Q500 170 0 140Z' fill='%230f3843'/><text x='45' y='48' fill='%23a1b5be' font-size='13' font-family='sans-serif' letter-spacing='2.5'>THE CAPTAIN'S LOG / WEEK 38</text><text x='45' y='95' fill='%23ffffff' font-size='34' font-weight='bold' font-family='sans-serif'>船長的一週行事曆</text><text x='45' y='125' fill='%23d3b776' font-size='14' font-family='sans-serif'>2026.09.14 — 09.20  |  星辰號．秋日航程</text><circle cx='915' cy='75' r='40' fill='none' stroke='%23d3b776' stroke-width='2.5'/><path d='M915 25v100M865 75h100' stroke='%23d3b776' stroke-width='1.2'/><polygon points='915,40 923,75 915,110 907,75' fill='%23d3b776'/><text x='911' y='22' fill='%23d3b776' font-size='11' font-family='sans-serif'>N</text><g fill='%23fff'><rect x='43' y='168' width='124' height='290' rx='10'/><rect x='173' y='168' width='124' height='290' rx='10'/><rect x='303' y='168' width='124' height='290' rx='10'/><rect x='433' y='168' width='124' height='290' rx='10'/><rect x='563' y='168' width='124' height='290' rx='10'/><rect x='693' y='168' width='124' height='290' rx='10'/><rect x='823' y='168' width='124' height='290' rx='10'/></g><g fill='%23888' font-size='11' font-family='sans-serif'><text x='55' y='198'>MON</text><text x='122' y='198'>09/14</text><text x='185' y='198'>TUE</text><text x='252' y='198'>09/15</text><text x='315' y='198'>WED</text><text x='382' y='198'>09/16</text><text x='445' y='198'>THU</text><text x='512' y='198'>09/17</text><text x='575' y='198'>FRI</text><text x='642' y='198'>09/18</text><text x='705' y='198'>SAT</text><text x='772' y='198'>09/19</text><text x='835' y='198'>SUN</text><text x='902' y='198'>09/20</text></g><g fill='%23111' font-size='18' font-weight='bold' font-family='sans-serif'><text x='55' y='228'>週一</text><text x='185' y='228'>週二</text><text x='315' y='228'>週三</text><text x='445' y='228'>週四</text><text x='575' y='228'>週五</text><text x='705' y='228'>週六</text><text x='835' y='228'>週日</text></g><g fill='%23e6edea'><rect x='51' y='255' width='108' height='95' rx='6'/><rect x='181' y='255' width='108' height='95' rx='6'/><rect x='311' y='255' width='108' height='95' rx='6'/><rect x='441' y='255' width='108' height='95' rx='6'/><rect x='571' y='255' width='108' height='95' rx='6'/><rect x='701' y='255' width='108' height='95' rx='6'/><rect x='831' y='255' width='108' height='95' rx='6'/></g><g fill='%23555' font-size='13' font-family='sans-serif'><text x='60' y='278'>08:30</text><text x='190' y='278'>09:00</text><text x='320' y='278'>07:30</text><text x='450' y='278'>10:00</text><text x='580' y='278'>09:30</text><text x='710' y='278'>08:00</text><text x='840' y='278'>10:00</text></g><g fill='%23111' font-size='15' font-weight='bold' font-family='sans-serif'><text x='60' y='303'>航前簡報</text><text x='190' y='303'>甲板巡檢</text><text x='320' y='303'>海象觀測</text><text x='450' y='303'>燈塔定位</text><text x='580' y='303'>靠港補給</text><text x='710' y='303'>海岸探索</text><text x='840' y='303'>返航入港</text></g><g fill='%23777' font-size='10' font-family='sans-serif'><text x='60' y='325'>確認航線與天氣</text><text x='190' y='325'>檢查設備與安全</text><text x='320' y='325'>記錄風向與浪況</text><text x='450' y='325'>核對方位與航程</text><text x='580' y='325'>補充淡水與物資</text><text x='710' y='325'>觀察沿岸生態</text><text x='840' y='325'>整理本週航行紀錄</text></g><g fill='%23555' font-size='13' font-family='sans-serif'><text x='60' y='380'>10:00</text><text x='190' y='380'>15:00</text><text x='320' y='380'>14:00</text><text x='450' y='380'>16:00</text><text x='580' y='380'>13:00</text><text x='710' y='380'>17:00</text><text x='840' y='380'>15:30</text></g><g fill='%23111' font-size='15' font-family='sans-serif'><text x='60' y='405'>離港啟航</text><text x='190' y='405'>航海日誌</text><text x='320' y='405'>救生演練</text><text x='450' y='405'>船員會議</text><text x='580' y='405'>設備保養</text><text x='710' y='405'>夕照攝影</text><text x='840' y='405'>下週規劃</text></g><rect x='43' y='480' width='904' height='75' rx='10' fill='%23e6dfd5'/><text x='63' y='508' fill='%23444' font-size='13' font-weight='bold' font-family='sans-serif'>本週重要時間點</text><text x='63' y='538' fill='%23222' font-size='15' font-family='sans-serif'>週一 10:00 啟航  ➔  週三 14:00 救生演練  ➔  週五 09:30 補給  ➔  週日 10:00 返航</text></svg>" alt="船長的一週行事曆，重點行程見下方文字" width="700">
+
+    <p>教學用虛構行程：2026 年 9 月 14 日至 20 日。週一 10:00 啟航；週三 14:00 救生演練；週五 09:30 靠港補給；週日 10:00 返航。</p>
+    <p>完整行程：週一 08:30 航前簡報、10:00 離港啟航；週二 09:00 甲板巡檢、15:00 航海日誌；週三 07:30 海象觀測、14:00 救生演練；週四 10:00 燈塔定位、16:00 船員會議；週五 09:30 靠港補給、13:00 設備保養；週六 08:00 海岸探索、17:00 夕照攝影；週日 10:00 返航入港、15:30 下週規劃。</p>
+
+    <h2>素材來源</h2>
+    <p>花朵、葉片與透明花朵 PNG 由 AI 生成；行事曆 SVG 與提示音為本課製作的練習素材。影片採用 MDN 的 flower.mp4 示範檔。</p>
+    <p><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/video">查看 MDN 影片範例說明</a></p>
+  </div>
+</body>
+</html>
